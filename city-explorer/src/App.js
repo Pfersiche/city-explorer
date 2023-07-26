@@ -9,7 +9,6 @@ function App() {
   const [map, setMap] = useState("");
 
   function handleSearch(event) {
-    // console.log("Hey you guys!");
     setSearchQuery(event.target.value);
     console.log(searchQuery);
   }
